@@ -27,7 +27,7 @@ const Navber = () => {
     <a className=" pl-2 text-3xl font-bold">Phudu</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1 space-x-3">
+    <ul className="menu menu-horizontal px-1 space-x-3 text-xl">
       <NavLink  ><a>Home</a></NavLink >
       <NavLink >
       

@@ -1,0 +1,194 @@
+[
+    {
+      "id": 0,
+      "image": "https://i.ibb.co.com/HLct7HbP/06-Dr-sanjoy-kunar-saha-medicine-scaled.jpg",
+      "name": "Dr. Emily Johnson",
+      "education": "MD, DNB Internal Medicine",
+      "speciality": "Internal Medicine",
+      "experience": "8 years",
+      "registration_number": "IMD1234567",
+      "working_place": {
+        "name": "Massachusetts General Hospital",
+        "address": "55 Fruit St, Boston, MA 02114, USA",
+        "type": "Hospital"
+      },
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "fee": 200
+    },
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/LDkqT6Ts/360-F-317854905-2id-Sdvi2ds3yejmk8mhvx-Yr1-Opd-VTr-SM.jpg",
+      "name": "Dr. Sima  Smith",
+      "education": "MBBS, MD Cardiology, DM Cardiology",
+      "speciality": "Cardiology",
+      "experience": "12 years",
+      "registration_number": "CRD7654321",
+      "working_place": {
+        "name": "Cleveland Clinic",
+        "address": "9500 Euclid Ave, Cleveland, OH 44195, USA",
+        "type": "Hospital"
+      },
+      "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Alternate Saturdays"],
+      "fee": 350
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/4nKvhSp4/download-1.jpg",
+      "name": "Dr. Sarah Williams",
+      "education": "MBBS, MD Pediatrics",
+      "speciality": "Pediatrics",
+      "experience": "10 years",
+      "registration_number": "PED9876543",
+      "working_place": {
+        "name": "Boston Children's Hospital",
+        "address": "300 Longwood Ave, Boston, MA 02115, USA",
+        "type": "Children's Hospital"
+      },
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Alternate Saturdays"],
+      "fee": 180
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co.com/4RBc3G4S/download.jpg",
+      "name": "Dr. Raj Gupta",
+      "education": "MBBS, MS Orthopedics, DNB Orthopedics",
+      "speciality": "Orthopedics",
+      "experience": "15 years",
+      "registration_number": "ORT3456789",
+      "working_place": {
+        "name": "Fortis Hospital",
+        "address": "Okhla Rd, New Delhi 110025, India",
+        "type": "Multi-Specialty Hospital"
+      },
+      "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "fee": 150
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co.com/Wvqvg5zD/female-doctor-hospital-with-stethoscope-23-2148827776.jpg",
+      "name": "Dr. Lisa Chen",
+      "education": "MD Neurology, DM Neurology",
+      "speciality": "Neurology",
+      "experience": "9 years",
+      "registration_number": "NEU2345678",
+      "working_place": {
+        "name": "Mayo Clinic",
+        "address": "200 1st St SW, Rochester, MN 55905, USA",
+        "type": "Academic Medical Center"
+      },
+      "availability": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "fee": 300
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co.com/zhd0mpYP/handsome-doctor-man-wearing-medical-uniform-over-isolated-background-doing-money-gesture-with-hand-a.jpg",
+      "name": "Dr. Carlos Rodriguez",
+      "education": "MBBS, MD Oncology",
+      "speciality": "Oncology",
+      "experience": "14 years",
+      "registration_number": "ONC8765432",
+      "working_place": {
+        "name": "MD Anderson Cancer Center",
+        "address": "1515 Holcombe Blvd, Houston, TX 77030, USA",
+        "type": "Cancer Treatment Center"
+      },
+      "availability": ["Monday", "Wednesday", "Friday"],
+      "fee": 400
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co.com/XkptvZ2X/images-2.jpg",
+      "name": "Dr. Ji-hoon Kim",
+      "education": "MD Radiology, PhD Biomedical Engineering",
+      "speciality": "Radiology",
+      "experience": "11 years",
+      "registration_number": "RAD6543210",
+      "working_place": {
+        "name": "Seoul National University Hospital",
+        "address": "101 Daehak-ro, Jongno-gu, Seoul, South Korea",
+        "type": "University Hospital"
+      },
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "fee": 250
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co.com/9mdYC5Bf/images-1.jpg",
+      "name": "Dr. Jennifer Miller",
+      "education": "DO Family Medicine",
+      "speciality": "Family Medicine",
+      "experience": "7 years",
+      "registration_number": "FAM5432109",
+      "working_place": {
+        "name": "EvergreenHealth Primary Care",
+        "address": "12333 NE 130th Ln, Kirkland, WA 98034, USA",
+        "type": "Primary Care Clinic"
+      },
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Alternate Saturdays"],
+      "fee": 120
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co.com/Gfj2szfj/images.jpg",
+      "name": "Dr. Thomas Nguyen",
+      "education": "MBBS, MD Gastroenterology",
+      "speciality": "Gastroenterology",
+      "experience": "13 years",
+      "registration_number": "GAS4321098",
+      "working_place": {
+        "name": "Sydney Digestive Health Centre",
+        "address": "Level 1, 70 Pitt St, Sydney NSW 2000, Australia",
+        "type": "Specialty Clinic"
+      },
+      "availability": ["Monday", "Wednesday", "Friday"],
+      "fee": 280
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co.com/3Kbh3wt/doctor-sample.png",
+      "name": "Dr. Alisa Wilson",
+      "education": "MD Psychiatry, DPM",
+      "speciality": "Psychiatry",
+      "experience": "16 years",
+      "registration_number": "PSY3210987",
+      "working_place": {
+        "name": "CAMH (Centre for Addiction and Mental Health)",
+        "address": "1001 Queen St W, Toronto, ON M6J 1H4, Canada",
+        "type": "Mental Health Hospital"
+      },
+      "availability": ["Tuesday", "Thursday", "Saturday"],
+      "fee": 220
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co.com/KzzVNFxP/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg",
+      "name": "Dr. Aisha Akande",
+      "education": "MBChB, MD Dermatology",
+      "speciality": "Dermatology",
+      "experience": "8 years",
+      "registration_number": "DER2109876",
+      "working_place": {
+        "name": "Skin Wellness Dermatology Clinic",
+        "address": "25 Bree St, Cape Town City Centre, Cape Town, 8001, South Africa",
+        "type": "Dermatology Clinic"
+      },
+      "availability": ["Monday", "Wednesday", "Friday", "Saturday"],
+      "fee": 190
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co.com/CpKRzK6b/istockphoto-1161336374-612x612.jpg",
+      "name": "Dr. Hiroshi Sato",
+      "education": "MD Ophthalmology, PhD Visual Sciences",
+      "speciality": "Ophthalmology",
+      "experience": "12 years",
+      "registration_number": "OPH1098765",
+      "working_place": {
+        "name": "Tokyo Eye Clinic",
+        "address": "2 Chome-7-3 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan",
+        "type": "Eye Specialty Clinic"
+      },
+      "availability": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "fee": 230
+    }
+  ]

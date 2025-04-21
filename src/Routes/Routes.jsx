@@ -19,6 +19,7 @@ export const router = createBrowserRouter([
     children: [
         {
             index: true ,
+            loader:()=> fetch('FackData.JSON'),
             path: "/" ,
             Component : Home
         }

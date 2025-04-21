@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div className='text-center space-y-5 my-10'>
         <div>
-            <h1 className='text-5xl font-bold mb-5'>Dependable Care, Backed by <br /> Trusted Professionals.</h1>
+            <h1 className='lg:text-5xl text-3xl font-bold mb-5'>Dependable Care, Backed by <br /> Trusted Professionals.</h1>
             <p>Our platform connects you with verified, experienced doctors across various specialties 
                 — all at your convenience. Whether it's a <br /> routine checkup or urgent consultation,
                  book appointments in minutes and receive quality care you can trust.</p>
@@ -19,7 +19,7 @@ const Banner = () => {
         </div>
 
 
-        <div className='flex gap-5 justify-center'>
+        <div className=' lg:flex gap-5 justify-center space-y-5 px-5'>
 
             <img src="https://i.ibb.co.com/vC1zNR0F/banner-img-1.png" alt="doctors" />
             <img src="https://i.ibb.co.com/vC1zNR0F/banner-img-1.png" alt="doctors" />
