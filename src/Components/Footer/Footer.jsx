@@ -1,18 +1,19 @@
 import React from 'react';
+import { NavLink } from 'react-router';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+        <footer className="footer footer-horizontal shadow- footer-center bg-base-300 text-base-content rounded p-10">
             <div className='flex'>
 
             <img className='h-7 ' src="https://i.ibb.co.com/wF4C3hG3/logo.png" alt="logo" />
             <a className=" pl-2 text-3xl font-bold">Phudu</a>
             </div>
         <nav className="grid grid-flow-col gap-4 text-xl">
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">My-Bookings</a>
-          <a className="link link-hover">Blogs</a>
-          <a className="link link-hover">Contact Us</a>
+          <NavLink to='/' className="link link-hover">Home</NavLink>
+          <NavLink to='/about' className="link link-hover">My-Bookings</NavLink>
+          <NavLink to='/blogs' className="link link-hover">Blogs</NavLink>
+          <NavLink to='/contact' className="link link-hover">Contact Us</NavLink>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">

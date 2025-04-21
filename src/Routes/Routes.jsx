@@ -8,6 +8,10 @@ import {
 import Root from '../Pages/Root/Root';
 import Error from '../Pages/Error/Error';
 import Home from '../Pages/Home/Home';
+import About from '../Pages/About/About';
+import Blog from '../Pages/Blog/Blog';
+import Contact from '../Pages/Contact/Contact';
+import DoctorDetails from '../Pages/DoctorDetails/DoctorDetails';
   
 
 export const router = createBrowserRouter([
@@ -19,9 +23,29 @@ export const router = createBrowserRouter([
     children: [
         {
             index: true ,
-            loader:()=> fetch('FackData.JSON'),
+            loader:()=> fetch('../../FackData.JSON'),
             path: "/" ,
             Component : Home
+        },
+        {
+            path:'/about',
+            Component:About
+        },
+        {
+            path:'/blogs',
+            loader:()=> fetch('Question.JSON'),
+            Component:Blog
+        },
+        {
+            path:'/contact',
+           
+            Component:Contact
+        },
+        {
+            path:'/doctorDetails/:id',
+            loader:()=> fetch('../../public/FackData.JSON'),
+            Component:DoctorDetails
+
         }
     ]
     },

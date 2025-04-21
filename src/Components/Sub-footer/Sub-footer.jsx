@@ -12,9 +12,10 @@ const Subfooter = () => {
                  </div>
 
 
-        <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5 mx-30'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5 mx-30 '>
             
-            <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-10 rounded-xl'>
+        <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
+                <img className='' src="https://i.ibb.co.com/TMJ3JmqL/success-doctor.png" alt="" />
             <CountUp start={0} end={199} delay={1} duration={5}>
                 {({ countUpRef, start }) => (
                     <div>
@@ -25,8 +26,9 @@ const Subfooter = () => {
             </CountUp> 
             <h1 className='text-lg'>Total Doctors</h1>
             </div>
-            <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-10 rounded-xl'>
-            <CountUp start={0} end={199} delay={1} duration={5}>
+            <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
+                <img src="https://i.ibb.co.com/39XPB520/success-review.png" alt="" />
+            <CountUp start={0} end={467} delay={1} duration={5}>
                 {({ countUpRef, start }) => (
                     <div>
                         <span ref={countUpRef} />
@@ -34,10 +36,11 @@ const Subfooter = () => {
                     </div> 
                 )}
             </CountUp> 
-            <h1 className='text-lg'>Total Review</h1>
+            <h1 className='text-lg'>Total Reviews</h1>
             </div>
-            <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-10 rounded-xl'>
-            <CountUp start={0} end={199} delay={1} duration={5}>
+            <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
+                <img src="https://i.ibb.co.com/S7ZVDb1d/success-patients.png" alt="" />
+            <CountUp start={0} end={1900} delay={1} duration={5}>
                 {({ countUpRef, start }) => (
                     <div>
                         <span ref={countUpRef} />
@@ -45,10 +48,11 @@ const Subfooter = () => {
                     </div> 
                 )}
             </CountUp> 
-            <h1 className='text-lg'>Total Doctors</h1>
+            <h1 className='text-lg'>Patients</h1>
             </div>
-            <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-10 rounded-xl'>
-            <CountUp start={0} end={199} delay={1} duration={5}>
+            <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
+                <img src="https://i.ibb.co.com/V05XXQZN/success-staffs.png" alt="" />
+            <CountUp start={0} end={300} delay={1} duration={5}>
                 {({ countUpRef, start }) => (
                     <div>
                         <span ref={countUpRef} />
@@ -56,7 +60,7 @@ const Subfooter = () => {
                     </div> 
                 )}
             </CountUp> 
-            <h1 className='text-lg'>Total Doctors</h1>
+            <h1 className='text-lg'>Total Stuffs</h1>
             </div>
             
         </div>

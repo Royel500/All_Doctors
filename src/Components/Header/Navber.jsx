@@ -4,7 +4,7 @@ import { NavLink  } from "react-router";
 <NavLink  to="/message" />;
 const Navber = () => {
     return (
-<div className="navbar bg-base-100 shadow-sm px-5">
+<div className="navbar bg-base-100 shadow-sm px-5 sticky top-0 z-9999">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,14 +13,14 @@ const Navber = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-      <NavLink  ><a>Home</a></NavLink >
-      <NavLink >
+    <NavLink to='/' ><a>Home</a></NavLink >
+      <NavLink to='/about' >
       
           <a>My-Bookings</a>
 
       </NavLink >
-      <NavLink ><a>Blogs</a></NavLink >
-      <NavLink ><a>Contact Us </a></NavLink >
+      <NavLink to='/blogs' ><a>Blogs</a></NavLink >
+      <NavLink to='/contact'><a>Contact </a></NavLink >
       </ul>
     </div>
     <img className='h-7 ' src="https://i.ibb.co.com/wF4C3hG3/logo.png" alt="logo" />
@@ -28,14 +28,14 @@ const Navber = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 space-x-3 text-xl">
-      <NavLink  ><a>Home</a></NavLink >
-      <NavLink >
+      <NavLink to='/' ><a>Home</a></NavLink >
+      <NavLink to='/about' >
       
           <a>My-Bookings</a>
 
       </NavLink >
-      <NavLink ><a>Blogs</a></NavLink >
-      <NavLink ><a>Contact Us </a></NavLink >
+      <NavLink to='/blogs' ><a>Blogs</a></NavLink >
+      <NavLink to='/contact'><a>Contact </a></NavLink >
     </ul>
   </div>
   <div className="navbar-end">

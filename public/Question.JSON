@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "question": "What is the difference between var, let, and const in JavaScript?",
+      "answer": "`var` is function-scoped, while `let` and `const` are block-scoped. `const` is used for values that shouldn't be reassigned.",
+      "added_date": "2025-04-01"
+    },
+    {
+      "id": 2,
+      "question": "What is the DOM in HTML?",
+      "answer": "The DOM (Document Object Model) is a programming interface that allows scripts to update the content, structure, and style of a document.",
+      "added_date": "2025-04-01"
+    },
+    {
+      "id": 3,
+      "question": "How do you center a div in CSS?",
+      "answer": "Use Flexbox: `display: flex; justify-content: center; align-items: center;` or use `margin: auto` for horizontal centering.",
+      "added_date": "2025-04-02"
+    },
+    {
+      "id": 4,
+      "question": "What is JSX in React?",
+      "answer": "JSX is a syntax extension for JavaScript that looks similar to HTML. It's used in React to describe UI structure.",
+      "added_date": "2025-04-03"
+    },
+    {
+      "id": 5,
+      "question": "How does useState work in React?",
+      "answer": "`useState` is a Hook that lets you add state to functional components. It returns the current state and a function to update it.",
+      "added_date": "2025-04-04"
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between == and === in JavaScript?",
+      "answer": "`==` checks for value equality with type coercion, while `===` checks for both value and type equality.",
+      "added_date": "2025-04-04"
+    },
+    {
+      "id": 7,
+      "question": "What is event delegation in JavaScript?",
+      "answer": "Event delegation is a technique where a single event listener handles events on multiple child elements using event bubbling.",
+      "added_date": "2025-04-05"
+    },
+    {
+      "id": 8,
+      "question": "How do media queries work in CSS?",
+      "answer": "Media queries apply CSS rules based on device characteristics like screen width, using syntax like `@media (max-width: 600px)`.",
+      "added_date": "2025-04-05"
+    },
+    {
+      "id": 9,
+      "question": "What is the Virtual DOM in React?",
+      "answer": "The Virtual DOM is a lightweight JavaScript object representing the actual DOM. React uses it to optimize rendering by comparing changes.",
+      "added_date": "2025-04-06"
+    },
+    {
+      "id": 10,
+      "question": "How can I loop through an array in JavaScript?",
+      "answer": "You can use `for`, `forEach`, `map`, `for...of`, or other array methods depending on what you need.",
+      "added_date": "2025-04-06"
+    },
+    {
+      "id": 11,
+      "question": "What is a component in React?",
+      "answer": "A component is a reusable piece of UI in React. It can be a function or a class that returns JSX.",
+      "added_date": "2025-04-07"
+    },
+    {
+      "id": 12,
+      "question": "How do you make a responsive layout in CSS?",
+      "answer": "Use flexible units like %, `em`, or `rem`, Flexbox or Grid, and media queries to adapt the layout to different screen sizes.",
+      "added_date": "2025-04-07"
+    },
+    {
+      "id": 13,
+      "question": "What are props in React?",
+      "answer": "Props are short for 'properties' and are used to pass data from parent to child components.",
+      "added_date": "2025-04-08"
+    },
+    {
+      "id": 14,
+      "question": "How do I add a class to an element in JavaScript?",
+      "answer": "Use `element.classList.add('class-name')` to add a class to an HTML element.",
+      "added_date": "2025-04-08"
+    },
+    {
+      "id": 15,
+      "question": "What is the difference between inline, block, and inline-block in CSS?",
+      "answer": "`inline` elements don’t break lines and can’t have width/height, `block` elements span full width, and `inline-block` behaves like inline but respects box model.",
+      "added_date": "2025-04-09"
+    }
+  ]
+

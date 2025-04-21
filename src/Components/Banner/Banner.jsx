@@ -21,8 +21,8 @@ const Banner = () => {
 
         <div className=' lg:flex gap-5 justify-center space-y-5 px-5'>
 
-            <img src="https://i.ibb.co.com/vC1zNR0F/banner-img-1.png" alt="doctors" />
-            <img src="https://i.ibb.co.com/vC1zNR0F/banner-img-1.png" alt="doctors" />
+            <img  className='w-150 h-90' src="https://i.ibb.co.com/vC1zNR0F/banner-img-1.png" alt="doctors" />
+            <img className='w-150 rounded-2xl h-90' src="https://i.ibb.co.com/tG6Yprj/couple.jpg" alt="doctors" />
         </div>
         </div>
     );

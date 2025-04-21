@@ -21,7 +21,7 @@ const Doctor = ({single}) => {
           <p>{single.education}</p>
           <h1> <span className='border h-5 w-5 rounded-[50%] p-1'>R</span> Reg No : {single.registration_number}|</h1>
           <div className="card-actions justify-center">
-         <NavLink><div className="badge badge-outline px-30 py-4 rounded-3xl text-fuchsia-700 font-bold">View Details</div></NavLink>   
+         <NavLink to={`/doctorDetails/${single.id}`} ><div className="badge badge-outline px-30 py-4 rounded-3xl text-fuchsia-700 font-bold">View Details</div></NavLink>   
             
           </div>
         </div>
