@@ -28,7 +28,7 @@
         "address": "9500 Euclid Ave, Cleveland, OH 44195, USA",
         "type": "Hospital"
       },
-      "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Alternate Saturdays"],
+      "availability": ["Monday", "Tuesday", "Thursday", "Friday"],
       "fee": 350
     },
     {
@@ -81,7 +81,7 @@
     },
     {
       "id": 5,
-      "image": "https://i.ibb.co.com/zhd0mpYP/handsome-doctor-man-wearing-medical-uniform-over-isolated-background-doing-money-gesture-with-hand-a.jpg",
+      "image": "https://i.ibb.co.com/kVHJ2v1y/download.jpg",
       "name": "Dr. Carlos Rodriguez",
       "education": "MBBS, MD Oncology",
       "speciality": "Oncology",

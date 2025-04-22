@@ -16,7 +16,7 @@ const Subfooter = () => {
             
         <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
                 <img className='' src="https://i.ibb.co.com/TMJ3JmqL/success-doctor.png" alt="" />
-            <CountUp start={0} end={199} delay={1} duration={5}>
+            <CountUp start={0} end={199} delay={1} duration={15}>
                 {({ countUpRef, start }) => (
                     <div>
                         <span ref={countUpRef} />
@@ -28,7 +28,7 @@ const Subfooter = () => {
             </div>
             <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
                 <img src="https://i.ibb.co.com/39XPB520/success-review.png" alt="" />
-            <CountUp start={0} end={467} delay={1} duration={5}>
+            <CountUp start={0} end={467} delay={1} duration={15}>
                 {({ countUpRef, start }) => (
                     <div>
                         <span ref={countUpRef} />
@@ -40,7 +40,7 @@ const Subfooter = () => {
             </div>
             <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
                 <img src="https://i.ibb.co.com/S7ZVDb1d/success-patients.png" alt="" />
-            <CountUp start={0} end={1900} delay={1} duration={5}>
+            <CountUp start={0} end={1900} delay={1} duration={15}>
                 {({ countUpRef, start }) => (
                     <div>
                         <span ref={countUpRef} />
@@ -52,7 +52,7 @@ const Subfooter = () => {
             </div>
             <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
                 <img src="https://i.ibb.co.com/V05XXQZN/success-staffs.png" alt="" />
-            <CountUp start={0} end={300} delay={1} duration={5}>
+            <CountUp start={0} end={300} delay={1} duration={15}>
                 {({ countUpRef, start }) => (
                     <div>
                         <span ref={countUpRef} />
