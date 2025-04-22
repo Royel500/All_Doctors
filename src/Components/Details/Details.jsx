@@ -17,10 +17,15 @@ const Details = ({about}) => {
       <h1>{speciality}</h1>
       <h1>Working At </h1>
       <h1>{working_place.name}</h1>      
+
       <h1>    {registration_number}</h1>
-      <h1>Availability: {availability.map((time,index)=>(
+
+      <h1>Availability: </h1>
+
+      <h1>{availability.map((time,index)=>(
         <li key={index}>{time}</li>
       ))}</h1>
+      
      <h1>Consultation Fee : {fee} (incl.VAt) Per Consultation </h1>
     </div>
   </div>

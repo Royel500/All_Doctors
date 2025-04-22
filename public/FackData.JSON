@@ -12,7 +12,7 @@
         "address": "55 Fruit St, Boston, MA 02114, USA",
         "type": "Hospital"
       },
-      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "availability": ["Monday",  "Wednesday", "Thursday", "Friday"],
       "fee": 200
     },
     {
@@ -44,7 +44,7 @@
         "address": "300 Longwood Ave, Boston, MA 02115, USA",
         "type": "Children's Hospital"
       },
-      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Alternate Saturdays"],
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"],
       "fee": 180
     },
     {
@@ -60,7 +60,7 @@
         "address": "Okhla Rd, New Delhi 110025, India",
         "type": "Multi-Specialty Hospital"
       },
-      "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "availability": ["Monday", "Tuesday",  "Friday", "Saturday"],
       "fee": 150
     },
     {
@@ -108,7 +108,7 @@
         "address": "101 Daehak-ro, Jongno-gu, Seoul, South Korea",
         "type": "University Hospital"
       },
-      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "availability": ["Monday", "Tuesday", "Thursday", "Friday"],
       "fee": 250
     },
     {
@@ -124,7 +124,7 @@
         "address": "12333 NE 130th Ln, Kirkland, WA 98034, USA",
         "type": "Primary Care Clinic"
       },
-      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Alternate Saturdays"],
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"],
       "fee": 120
     },
     {

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='text-center space-y-5 my-10'>
+        <div className='text-center space-y-5 my-10 border-2 m-2 border-white pt-10 rounded-xl'>
         <div>
             <h1 className='lg:text-5xl text-3xl font-bold mb-5'>Dependable Care, Backed by <br /> Trusted Professionals.</h1>
             <p>Our platform connects you with verified, experienced doctors across various specialties 

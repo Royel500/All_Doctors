@@ -37,9 +37,12 @@ const DoctorDetails = () => {
          <span className='border h-5 w-5 rounded-[50%] p-0.5'>R</span><span>
           Reg No : {single.registration_number}</span></h1>
 
-      <h1 className='flex flex-row gap-5 text-cyan-600 font-bold  mx-3 p-2 '> <span className='bg-white pt-2 '> Availability: </span>{availability.map((time,index)=>(
+
+          <span className='bg-white pt-2 '> Availability: </span>
+      <h1 className='flex flex-row gap-5 text-cyan-600 font-bold  mx-3 p-1'> {availability.map((time,index)=>(
         <ul className='rounded-3xl shadow p-2 px-4 bg-amber-50' key={index}>{time}</ul>
       ))}</h1>
+
      <h1 className='font-bold'>Consultation Fee : <span className='text-blue-600'>Taka : {fee}</span>  (incl.VAt) <span className='text-blue-600'>Per Consultation </span></h1>
     </div>
   </div>
