@@ -2,10 +2,13 @@ import React from 'react';
 
 const Error = () => {
     return (
-        <div className='h-50 text-center font-bold text-fuchsia-600 text-4xl py-10'>
-         <h1> This Page is Not Found 0.0</h1>
-         <h1>Declared By Web Devloper-------- ROYEL---------</h1>  
-        </div>
+        <div className='flex flex-col items-center py-40 bg-blue-50 space-y-5'>
+       
+        <img src="https://i.ibb.co.com/Q7Zp8jw2/Error-1.jpg" alt="" />
+        <h1 className='text-4xl text-fuchsia-600'>404- Page Not Found</h1>
+        <p>Opps!!! The Page You're Looking for doesn't exist! </p>
+        <NavLink to='/'><button className='btn bg-cyan-600'>Back to Home</button></NavLink>
+     </div>
     );
 };
 

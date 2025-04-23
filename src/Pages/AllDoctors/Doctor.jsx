@@ -9,11 +9,9 @@ const Doctor = ({single}) => {
         <figure className='p-5'>
         <img
       src={single.image}
-      className=" rounded-lg shadow-xl h-100 w-130"
+      className=" rounded-lg shadow-xl h-90 w-130"
     />
-          {/* <img className='h-100 w-full rounded-3xl p-10 '
-            src={single.image}
-            alt="Shoes" /> */}
+        
         </figure>
         <div className="card-body space-y-2">
           <h2 className="card-title">

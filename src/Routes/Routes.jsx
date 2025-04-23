@@ -12,6 +12,7 @@ import About from '../Pages/About/About';
 import Blog from '../Pages/Blog/Blog';
 import Contact from '../Pages/Contact/Contact';
 import DoctorDetails from '../Pages/DoctorDetails/DoctorDetails';
+import Booking from '../Pages/Booking/Booking';
   
 
 export const router = createBrowserRouter([
@@ -27,10 +28,13 @@ export const router = createBrowserRouter([
             path: "/" ,
             Component : Home
         },
-        {
-            path:'/about',
-            Component:About
-        },
+      
+                {
+                    path:'/about',
+                    loader:()=> fetch('../../FackData.JSON'),
+                    Component:Booking 
+                },
+     
         {
             path:'/blogs',
             loader:()=> fetch('Question.JSON'),
@@ -43,10 +47,11 @@ export const router = createBrowserRouter([
         },
         {
             path:'/doctorDetails/:id',
-            loader:()=> fetch('../../public/FackData.JSON'),
+            loader:()=> fetch('../../FackData.JSON'),
             Component:DoctorDetails
 
-        }
+        },
+   
     ]
     },
   ]);
