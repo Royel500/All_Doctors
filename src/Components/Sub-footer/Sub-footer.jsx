@@ -12,7 +12,7 @@ const Subfooter = () => {
                  </div>
 
 
-        <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5 mx-30 '>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5 lg:mx-30 mx-5 '>
             
         <div className='border shadow-2xl text-center font-bold text-3xl bg-white py-5 rounded-xl flex flex-col items-center'>
                 <img className='' src="https://i.ibb.co.com/TMJ3JmqL/success-doctor.png" alt="" />
