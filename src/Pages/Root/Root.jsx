@@ -10,12 +10,22 @@ const Root = () => {
     const isNavigating = Boolean(navigate.location);
     return (
         <div className='bg-gray-200'>
-               
+
             <Navber></Navber>
+            <ToastContainer 
+  position="top-right"
+  autoClose={2000}
+  hideProgressBar={false}
+  newestOnTop={true}
+  closeOnClick
+  pauseOnHover
+  draggable
+  theme="colored"
+/>
             {isNavigating && <span>Loading...</span> }
             <Outlet></Outlet>
-            {location.pathname !== '/contact' && <Footer />}
-            <ToastContainer />
+            {location.pathname !== '/contact' && location.pathname !== '/error' && <Footer />}
+
         </div>
     );
 };

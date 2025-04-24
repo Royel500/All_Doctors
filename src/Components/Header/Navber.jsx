@@ -70,12 +70,7 @@ const Navber = () => {
         <a className="btn bg-fuchsia-600 text-white rounded-3xl">Emergency</a>
       </div>
 
-      {/* Spinner */}
-      {navigation.state === 'loading' && (
-        <div className="fixed top-10 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-999">
-          <span className="loading text-6xl loading-spinner loading-lg text-white">Data Loading......</span>
-        </div>
-      )}
+    
     </div>
   );
 };

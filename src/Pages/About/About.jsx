@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router';
-import Booking from '../Booking/Booking';
+
 
 const About = () => {
     return (
         <>
-        <div className='text-center my-25 space-y-5'>
+        <div className='text-center mx-10 my-25 space-y-5'>
             <h1 className='text-3xl font-bold'>You Have not Booked any Appointment yet</h1>
             <p>Our platfrom connects you with verified,
                 experienced doctors across various specialities -- all at your convenience.</p>

@@ -42,7 +42,7 @@ const Booking = () => {
   return (
     <div className="my-20 py-10">
       <Recharts data={chartData} />
-      <div className="text-center my-10">
+      <div className="text-center mx-10 my-10">
         <h1 className="text-3xl font-bold">My Today Appointments</h1>
         <p>
           Our platform connects you with verified, experienced doctors across various specialties — all at your

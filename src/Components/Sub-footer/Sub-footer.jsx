@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 const Subfooter = () => {
     return (
         <div className='my-20 space-y-10'>
-        <div className='text-center font-bold'>
+        <div className='text-center font-bold mx-5'>
             <h1 className='text-3xl'>We Provide Best Medical Services</h1>
             <p>Our platform connects you with verified,
                  experienced doctors across various specialties — all at your convenience. </p>

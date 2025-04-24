@@ -10,7 +10,7 @@ const AllDoctors = ({ data }) => {
 
   return (
     <>
-      <div className="text-center font-bold my-10 mt-20">
+      <div className="text-center font-bold my-10  mx-10 mt-20">
         <h1 className="text-3xl">Our Best Doctors</h1>
         <p>
           Our platform connects you with verified, experienced doctors across various specialties — all at your
