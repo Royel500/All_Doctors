@@ -27,20 +27,20 @@ const DoctorDetails = () => {
     
       <div>
     
-         <div className='text-center lg:px-40 px-5 py-20 bg-white my-10 mx-10 rounded-2xl'>
+         <div className='text-center lg:px-40 px-5 py-20 bg-white my-10 lg:mx-10 mx-5 rounded-2xl'>
             <h1 className='text-3xl font-bold'>Doctor’s Profile Details</h1>
             <p>Experienced and compassionate healthcare professionals committed to delivering
                personalized care and promoting patient well-being through modern, evidence-based practices.</p>
          </div>
-         <div className="bg-white mx-10 py-5 px-5 rounded-2xl font-bold">
+         <div className="bg-white lg:mx-10 mx-5 py-5 px-5 rounded-2xl font-bold">
             <div className="lg:flex gap-10 space-y-5">
                <img
                   src={image}
-                  className="rounded-lg shadow-2xl h-100  w-130 "
+                  className="rounded-lg shadow-xl lg:h-100  w-130 "
                   alt={name}
                />
                <div className='space-y-10'>
-                  <h1 className="text-5xl font-bold pt-0 pb-5">{name}</h1>
+                  <h1 className="lg:text-5xl text-2xl pt-5 font-bold  pb-5">{name}</h1>
                   <h1>{education}</h1>
                   <h1 className='pb-2 font-bold'>{speciality}</h1>
                   <h1 className='mt-5 font-bold'>Working At ..</h1>
@@ -59,7 +59,7 @@ const DoctorDetails = () => {
             </div>
          </div>
 
-         <div className='text-center font-bold space-y-10 my-10 py-20 bg-white mx-10 rounded-2xl'>
+         <div className='text-center font-bold space-y-10 my-10 py-20 bg-white lg:mx-10 mx-5 rounded-2xl'>
             <h1 className='text-3xl'>Book an Appointment</h1>
             <h1 className='flex justify-between lg:px-20 border-y-1 border-dashed py-2 mx-10'>
                <span className='pt-2'> 
@@ -69,15 +69,15 @@ const DoctorDetails = () => {
                   <h1 className='btn bg-blue-100 rounded-3xl'>Doctor Available Today</h1>
                </span>
             </h1>
-            <p className='text-amber-400 bg-amber-100 flex justify-center gap-2 py-3 mx-10 rounded-3xl'>
+            <p className='text-amber-400 bg-amber-100 flex justify-center gap-1 py-3 lg:mx-10 mx-5 rounded-3xl'>
                <span className='pt-1 '><BsExclamationCircle /></span>
-               <h1 className='px-2'>Due to high patient volume, we are currently accepting appointments for today only.
+               <h1 className='px-4 text-justify'>Due to high patient volume, we are currently accepting appointments for today only.
                   We appreciate your understanding and cooperation.</h1>
             </p>
             <NavLink to='/about'>
                <button
                   onClick={() => handdleBooking(id)}
-                  className='btn text-white rounded-3xl lg:ml-20 w-3/4 lg:mx-20 bg-blue-600'
+                  className='btn text-white rounded-3xl lg:ml-20 w-3/4 mx-10 lg:mx-20 bg-blue-600'
                >
                   Book Appointment Now
                </button>

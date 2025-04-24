@@ -1,7 +1,7 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
-// Custom wave-style bar shape
+
 const getPath = (x, y, width, height) => (
   `M${x},${y + height}
    C${x + width / 3},${y + height} ${x + width / 2},${y + height / 3} ${x + width / 2},${y}
@@ -16,11 +16,11 @@ const CustomBarShape = (props) => {
   );
 };
 
-// Main chart component
+
 const Recharts = ({ data }) => {
   return (
     <div className="flex justify-center my-10">
-      <ResponsiveContainer width="90%" height={400}>
+      <ResponsiveContainer width="90%" height={300}>
         <BarChart data={data}>
           <XAxis dataKey="name" />
           <YAxis />

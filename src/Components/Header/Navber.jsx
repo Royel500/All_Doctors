@@ -70,7 +70,11 @@ const Navber = () => {
         <a className="btn bg-fuchsia-600 text-white rounded-3xl">Emergency</a>
       </div>
 
-    
+      {navigation.state === 'loading' && (
+        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="spinner-border animate-spin inline-block w-8 h-8 border-4 rounded-full text-white"></div>
+        </div>
+      )}
     </div>
   );
 };

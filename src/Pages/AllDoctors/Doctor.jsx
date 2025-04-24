@@ -9,7 +9,7 @@ const Doctor = ({single}) => {
         <figure className='p-5'>
         <img
       src={single.image}
-      className=" rounded-lg shadow-xl h-90 w-130"
+      className=" rounded-lg shadow-xl lg:h-90 h-70 w-130"
     />
         
         </figure>
@@ -24,8 +24,8 @@ const Doctor = ({single}) => {
           <h1 className='flex gap-2 mt-2 border-t border-dashed pt-2'>  <FaRegRegistered className='mt-1' /> <span> Reg No : {single.registration_number} </span></h1>
           <div className="card-actions justify-center">
          <Link to={`/doctorDetails/${single.id}`} >
-         <div className="badge badge-outline px-30 py-4 rounded-3xl text-fuchsia-700 font-bold">View Details</div></Link>   
-            
+         <div  className="btn btn-outline btn-error px-20 rounded-3xl mt-4">View Details</div></Link>   
+        
           </div>
         </div>
       </div>

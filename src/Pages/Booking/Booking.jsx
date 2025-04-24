@@ -64,7 +64,7 @@ const Booking = () => {
               </p>
             </div>
             <button
-              className="btn btn-outline btn-error rounded-lg mt-4"
+              className="btn btn-outline btn-error rounded-xl mt-4"
               onClick={() => handleCancelAppointment(doc.id)}
             >
               Cancel Appointment
