@@ -1,12 +1,26 @@
-# React + Vite
+# Phudu - Doctor Listing Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Phudu** is a responsive and modern web application that showcases top-rated doctors with detailed profiles. This application is ideal for clinics, hospitals, or healthcare startups looking to present their medical professionals effectively.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🩺 List of top doctors with profile photos
+- 📄 Specialization and experience details
+- ✅ Status badges (Available / Offline)
+- ❤️ Favorite button UI
+- 📱 Fully responsive for all devices
+- 🔎 View Details button for individual doctor info (extendable to dynamic routing)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+![Phudu Web App] Live Link = imaginative-melomakarona-93ab2d.netlify.app
+
+## 🛠️ Technologies Used
+
+- **React** (Frontend library)
+- **Tailwind CSS** (Styling)
+- **React Router DOM** (Routing)
+- **JavaScript** (Logic and interactivity)
+
+## 📁 Folder Structure
+
