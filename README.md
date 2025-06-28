@@ -13,7 +13,7 @@
 
 
 
-![Phudu Web App] Live Link = imaginative-melomakarona-93ab2d.netlify.app
+![Phudu Web App] Live Link = https://tranquil-pothos-01e2ab.netlify.app/
 
 ## 🛠️ Technologies Used
 
