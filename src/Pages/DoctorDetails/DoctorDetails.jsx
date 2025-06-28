@@ -7,6 +7,7 @@ import { addToStoreBD } from './HandleBooking';
 import 'react-toastify/dist/ReactToastify.css';
 import DoctorNot from './../../Components/DoctorNot/DoctorNot';
 
+
 const DoctorDetails = () => {
    const { id } = useParams();
    const ConID = parseInt(id);
@@ -54,7 +55,8 @@ const DoctorDetails = () => {
                         <ul className='rounded-3xl shadow p-2 px-4 bg-amber-50' key={index}>{time}</ul>
                      ))}
                   </h1>
-                  <h1 className='font-bold'>Consultation Fee : <span className='text-blue-600'>Taka : {fee}</span> (incl. VAT) <span className='text-blue-600'>Per Consultation</span></h1>
+                  <h1 className='font-bold'>Consultation Fee : <span className='text-blue-600'>Taka :
+                      {fee}</span> (incl. VAT) <span className='text-blue-600'>Per Consultation</span></h1>
                </div>
             </div>
          </div>

@@ -20,7 +20,7 @@ const AllDoctors = ({ data }) => {
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 lg:pl-10 px-2 gap-5">
-        <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+        <Suspense fallback={<span className="loading loading-bars loading-xl">Loading...........</span>}>
         
           {data.slice(0, visibleCount).map((single) => (
             <Doctor key={single.id} single={single} />
